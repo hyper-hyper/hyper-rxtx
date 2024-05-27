@@ -14,7 +14,13 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rfv node_modules bun.lockb bunfig.toml build",
+    "build": "deno run --allow-all --unstable-ffi ./node_modules/@webview/webview/script/build.ts",
+    "run": "deno run --unstable-ffi --unstable-kv --unstable-broadcast-channel --allow-all "
   },
   "dependencies": {
+    "@webview/webview": "npm:@jsr/webview__webview@0.8.0",
+    "bun": "^1.1.10",
+    "deno": "^0.1.1"
   }
 }

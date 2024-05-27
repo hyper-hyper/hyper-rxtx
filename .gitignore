@@ -7,6 +7,7 @@
 *.log
 build
 bun.lockb
+bunfig.toml
 dist
 node_modules
 target
