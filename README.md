@@ -1,3 +1,7 @@
-# The `@itsmikita/repo` template
+# The `@hyper-hyper/hyper-terminal` repo
 
-Opinionated repository template. Could be standalone or used within a monorepo.
+Experimental desktop Terminal app built with Deno and Bun.
+
+## Resources
+
+...

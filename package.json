@@ -1,6 +1,6 @@
 {
-  "name": "@itsmikita/repo",
-  "version": "0.0.3",
+  "name": "@hyper-hyper/hyper-terminal",
+  "version": "0.0.1",
   "author": {
     "name": "Mikita Stankiewicz",
     "email": "itsmikita@gmail.com",
@@ -8,19 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/itsmikita/repo.git"
+    "url": "https://github.com/hyper-hyper/hyper-terminal.git"
   },
   "private": "true",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "hyper-server --hot --root ./src",
-    "build": "bun build ./server.ts --outdir ./dist"
   },
   "dependencies": {
-    "@hyper-hyper/hyper-server": "github:hyper-hyper/hyper-server",
-    "bun": "^1.0.28",
-    "bun-types": "^1.0.28",
-    "typescript": "^5.3.3"
   }
 }
